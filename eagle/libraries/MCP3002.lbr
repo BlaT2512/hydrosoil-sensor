@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="4" number="39" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="4" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="0" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="0" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="MICROCHIP_MCP3002-I-P_0">
+                    <description>CON-ADC-MCP3002-8</description>
+                    <wire layer="21" y2="4.9" width="0.2" curve="180.0" x2="0.635" y1="4.9" x1="-0.635"/>
+                    <wire layer="21" y2="4.9" width="0.15" x2="-2.65" y1="-4.9" x1="-2.65"/>
+                    <wire layer="21" y2="4.9" width="0.15" x2="2.65" y1="-4.9" x1="2.65"/>
+                    <wire layer="21" y2="4.9" width="0.15" x2="-0.635" y1="4.9" x1="-2.65"/>
+                    <wire layer="21" y2="4.9" width="0.15" x2="2.65" y1="4.9" x1="0.635"/>
+                    <wire layer="21" y2="-4.9" width="0.15" x2="2.65" y1="-4.9" x1="-2.65"/>
+                    <wire layer="51" y2="4.9" width="0.1" x2="-3.55" y1="-4.9" x1="-3.55"/>
+                    <wire layer="51" y2="4.9" width="0.1" x2="3.55" y1="-4.9" x1="3.55"/>
+                    <wire layer="51" y2="4.9" width="0.1" x2="3.55" y1="4.9" x1="-3.55"/>
+                    <wire layer="51" y2="-4.9" width="0.1" x2="3.55" y1="-4.9" x1="-3.55"/>
+                    <wire layer="39" y2="5.235" width="0.1" x2="-4.56" y1="-4.9" x1="-4.56"/>
+                    <wire layer="39" y2="5.235" width="0.1" x2="4.56" y1="5.235" x1="-4.56"/>
+                    <wire layer="39" y2="-4.9" width="0.1" x2="4.56" y1="5.235" x1="4.56"/>
+                    <wire layer="39" y2="-4.9" width="0.1" x2="-4.56" y1="-4.9" x1="4.56"/>
+                    <text layer="25" align="bottom-left" y="5.235" x="-5.56" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="5.11" x="-3.81" layer="21" radius="0.125" width="0.25"/>
+                    <circle y="3.9" x="-1.65" layer="21" radius="0.3" width="0.6"/>
+                    <circle y="4.0" x="-2.65" layer="51" radius="0.5" width="0.1"/>
+                    <pad diameter="1.5" name="1" shape="square" drill="0.9" y="3.81" x="-3.81" rot="R0"/>
+                    <pad diameter="1.5" name="2" shape="round" drill="0.9" y="1.27" x="-3.81" rot="R0"/>
+                    <pad diameter="1.5" name="3" shape="round" drill="0.9" y="-1.27" x="-3.81" rot="R0"/>
+                    <pad diameter="1.5" name="4" shape="round" drill="0.9" y="-3.81" x="-3.81" rot="R0"/>
+                    <pad diameter="1.5" name="8" shape="round" drill="0.9" y="3.81" x="3.81" rot="R0"/>
+                    <pad diameter="1.5" name="7" shape="round" drill="0.9" y="1.27" x="3.81" rot="R0"/>
+                    <pad diameter="1.5" name="6" shape="round" drill="0.9" y="-1.27" x="3.81" rot="R0"/>
+                    <pad diameter="1.5" name="5" shape="round" drill="0.9" y="-3.81" x="3.81" rot="R0"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="MICROCHIP_MCP3002-I-P_0_0">
+                    <description>CON-ADC-MCP3002-8</description>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="0.0" y1="-30.48" x1="0.0"/>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="20.32" y1="-5.08" x1="0.0"/>
+                    <wire layer="94" y2="-30.48" width="0.508" x2="20.32" y1="-5.08" x1="20.32"/>
+                    <wire layer="94" y2="-30.48" width="0.508" x2="0.0" y1="-30.48" x1="20.32"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="0.0" y1="-7.62" x1="0.0"/>
+                    <wire layer="94" y2="-12.7" width="0.15" x2="0.0" y1="-12.7" x1="0.0"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="0.0" y1="-15.24" x1="0.0"/>
+                    <wire layer="94" y2="-27.94" width="0.15" x2="20.32" y1="-27.94" x1="20.32"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="0.0" y1="-20.32" x1="0.0"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="20.32" y1="-7.62" x1="20.32"/>
+                    <wire layer="94" y2="-22.86" width="0.15" x2="0.0" y1="-22.86" x1="0.0"/>
+                    <wire layer="94" y2="-27.94" width="0.15" x2="0.0" y1="-27.94" x1="0.0"/>
+                    <text layer="95" align="top-left" y="-2.54" x="0.0" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-35.56" x="0.0" rot="R0" size="2.54">MCP3002-I/P</text>
+                    <pin direction="in" name="DIN" visible="both" length="middle" y="-7.62" x="-5.08"/>
+                    <pin direction="in" name="CH0" visible="both" length="middle" y="-12.7" x="-5.08"/>
+                    <pin direction="in" name="CH1" visible="both" length="middle" y="-15.24" x="-5.08"/>
+                    <pin direction="pwr" name="VSS" visible="both" length="middle" y="-27.94" x="25.4" rot="R180"/>
+                    <pin direction="in" name="!CS!/SHDN" visible="both" length="middle" y="-20.32" x="-5.08"/>
+                    <pin direction="hiz" name="DOUT" visible="both" length="middle" y="-7.62" x="25.4" rot="R180"/>
+                    <pin direction="in" name="CLK" visible="both" length="middle" y="-22.86" x="-5.08"/>
+                    <pin direction="pwr" name="VDD/VREF" visible="both" length="middle" y="-27.94" x="-5.08"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="U" name="MICROCHIP_MCP3002-I-P">
+                    <description>CON-ADC-MCP3002-8</description>
+                    <gates>
+                        <gate name="G$0" symbol="MICROCHIP_MCP3002-I-P_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="MICROCHIP_MCP3002-I-P_0_0" package="MICROCHIP_MCP3002-I-P_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="!CS!/SHDN"/>
+                                <connect gate="G$0" pad="2" pin="CH0"/>
+                                <connect gate="G$0" pad="3" pin="CH1"/>
+                                <connect gate="G$0" pad="4" pin="VSS"/>
+                                <connect gate="G$0" pad="5" pin="DIN"/>
+                                <connect gate="G$0" pad="6" pin="DOUT"/>
+                                <connect gate="G$0" pad="7" pin="CLK"/>
+                                <connect gate="G$0" pad="8" pin="VDD/VREF"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="ciiva_ids" value="2293973"/>
+                                    <attribute name="Package_Version" value="revBB, Aug-2009"/>
+                                    <attribute name="Component_Link_1_Description" value="Manufacturer URL"/>
+                                    <attribute name="vault_guid" value="4280AEAC-333D-4A10-9336-C9C485D9AFF8"/>
+                                    <attribute name="MPN" value="MCP3002-I/P"/>
+                                    <attribute name="Component_Link_1_URL" value="http://www.microchip.com/"/>
+                                    <attribute name="imported" value="yes"/>
+                                    <attribute name="pin_0_0_6_inside_edge" value="clock"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="import_ts" value="1521843716"/>
+                                    <attribute name="Datasheet_Version" value="revE, Nov-2011"/>
+                                    <attribute name="Code__JEDEC" value="MS-001"/>
+                                    <attribute name="Package_Description" value="8-Lead Plastic Dual In-Line (P) - 300 mil Body [PDIP]"/>
+                                    <attribute name="datasheet" value="http://ww1.microchip.com/downloads/en/DeviceDoc/21294E.pdf"/>
+                                    <attribute name="vault_revision" value="F0AB36E4-60F8-4ABB-915A-FEDE2A98AA95"/>
+                                    <attribute name="footprint_variant_name_0" value="Manufacturer Recommended"/>
+                                    <attribute name="release_date" value="1331962296"/>
+                                    <attribute name="imported_from" value="vault"/>
+                                    <attribute name="Component_Link_3_Description" value="Package Specification"/>
+                                    <attribute name="MF" value="Microchip"/>
+                                    <attribute name="package" value="PDIP300-P8"/>
+                                    <attribute name="Component_Link_3_URL" value="http://www.microchip.com/stellent/groups/techpub_sg/documents/packagingspec/en012702.pdf"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
